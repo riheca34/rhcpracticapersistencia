@@ -11,11 +11,12 @@
 		B630BE6525CEAF5F005B9DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6425CEAF5F005B9DD7 /* SceneDelegate.swift */; };
 		B630BE6725CEAF5F005B9DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6625CEAF5F005B9DD7 /* ViewController.swift */; };
 		B630BE6A25CEAF5F005B9DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B630BE6825CEAF5F005B9DD7 /* Main.storyboard */; };
-		B630BE6D25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6B25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld */; };
+		B630BE6D25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6B25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld */; };
 		B630BE6F25CEAF61005B9DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B630BE6E25CEAF61005B9DD7 /* Assets.xcassets */; };
 		B630BE7225CEAF61005B9DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B630BE7025CEAF61005B9DD7 /* LaunchScreen.storyboard */; };
 		B630BE7D25CEAF61005B9DD7 /* practpersistenciaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE7C25CEAF61005B9DD7 /* practpersistenciaTests.swift */; };
 		B630BE8825CEAF61005B9DD7 /* practpersistenciaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE8725CEAF61005B9DD7 /* practpersistenciaUITests.swift */; };
+		B630BE9925D03F92005B9DD7 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE9825D03F92005B9DD7 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B630BE8325CEAF61005B9DD7 /* practpersistenciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practpersistenciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B630BE8725CEAF61005B9DD7 /* practpersistenciaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practpersistenciaUITests.swift; sourceTree = "<group>"; };
 		B630BE8925CEAF61005B9DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B630BE9825D03F92005B9DD7 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,8 @@
 				B630BE6E25CEAF61005B9DD7 /* Assets.xcassets */,
 				B630BE7025CEAF61005B9DD7 /* LaunchScreen.storyboard */,
 				B630BE7325CEAF61005B9DD7 /* Info.plist */,
-				B630BE6B25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld */,
+				B630BE6B25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld */,
+				B630BE9825D03F92005B9DD7 /* DataController.swift */,
 			);
 			path = practpersistencia;
 			sourceTree = "<group>";
@@ -261,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B630BE9925D03F92005B9DD7 /* DataController.swift in Sources */,
 				B630BE6725CEAF5F005B9DD7 /* ViewController.swift in Sources */,
 				B630BE6325CEAF5F005B9DD7 /* AppDelegate.swift in Sources */,
-				B630BE6D25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld in Sources */,
+				B630BE6D25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld in Sources */,
 				B630BE6525CEAF5F005B9DD7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,13 +603,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B630BE6B25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld */ = {
+		B630BE6B25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				B630BE6C25CEAF5F005B9DD7 /* practpersistencia.xcdatamodel */,
 			);
 			currentVersion = B630BE6C25CEAF5F005B9DD7 /* practpersistencia.xcdatamodel */;
-			path = practpersistencia.xcdatamodeld;
+			path = practpersistenciaModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
