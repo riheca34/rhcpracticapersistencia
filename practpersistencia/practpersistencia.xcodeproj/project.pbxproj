@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62FCF1E25D1DDB000888065 /* practicatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62FCF1D25D1DDB000888065 /* practicatest.swift */; };
 		B630BE6325CEAF5F005B9DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6225CEAF5F005B9DD7 /* AppDelegate.swift */; };
 		B630BE6525CEAF5F005B9DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6425CEAF5F005B9DD7 /* SceneDelegate.swift */; };
 		B630BE6725CEAF5F005B9DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6625CEAF5F005B9DD7 /* ViewController.swift */; };
 		B630BE6A25CEAF5F005B9DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B630BE6825CEAF5F005B9DD7 /* Main.storyboard */; };
-		B630BE6D25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6B25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld */; };
+		B630BE6D25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B630BE6B25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld */; };
 		B630BE6F25CEAF61005B9DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B630BE6E25CEAF61005B9DD7 /* Assets.xcassets */; };
 		B630BE7225CEAF61005B9DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B630BE7025CEAF61005B9DD7 /* LaunchScreen.storyboard */; };
-		B630BE7D25CEAF61005B9DD7 /* practpersistenciaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE7C25CEAF61005B9DD7 /* practpersistenciaTests.swift */; };
-		B630BE8825CEAF61005B9DD7 /* practpersistenciaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE8725CEAF61005B9DD7 /* practpersistenciaUITests.swift */; };
 		B630BE9925D03F92005B9DD7 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE9825D03F92005B9DD7 /* DataController.swift */; };
+		B636A11925D5AA0000AE7465 /* NotebookMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636A11825D5AA0000AE7465 /* NotebookMO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B62FCF1D25D1DDB000888065 /* practicatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicatest.swift; sourceTree = "<group>"; };
 		B630BE5F25CEAF5F005B9DD7 /* practpersistencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practpersistencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B630BE6225CEAF5F005B9DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B630BE6425CEAF5F005B9DD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,12 +48,9 @@
 		B630BE7125CEAF61005B9DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B630BE7325CEAF61005B9DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B630BE7825CEAF61005B9DD7 /* practpersistenciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practpersistenciaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B630BE7C25CEAF61005B9DD7 /* practpersistenciaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practpersistenciaTests.swift; sourceTree = "<group>"; };
-		B630BE7E25CEAF61005B9DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B630BE8325CEAF61005B9DD7 /* practpersistenciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practpersistenciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B630BE8725CEAF61005B9DD7 /* practpersistenciaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practpersistenciaUITests.swift; sourceTree = "<group>"; };
-		B630BE8925CEAF61005B9DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B630BE9825D03F92005B9DD7 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		B636A11825D5AA0000AE7465 /* NotebookMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookMO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B62FCF2525D1DDCE00888065 /* practpersistenciaTest */ = {
+			isa = PBXGroup;
+			children = (
+				B62FCF1D25D1DDB000888065 /* practicatest.swift */,
+			);
+			path = practpersistenciaTest;
+			sourceTree = "<group>";
+		};
 		B630BE5625CEAF5F005B9DD7 = {
 			isa = PBXGroup;
 			children = (
 				B630BE6125CEAF5F005B9DD7 /* practpersistencia */,
-				B630BE7B25CEAF61005B9DD7 /* practpersistenciaTests */,
-				B630BE8625CEAF61005B9DD7 /* practpersistenciaUITests */,
 				B630BE6025CEAF5F005B9DD7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,28 +114,12 @@
 				B630BE6E25CEAF61005B9DD7 /* Assets.xcassets */,
 				B630BE7025CEAF61005B9DD7 /* LaunchScreen.storyboard */,
 				B630BE7325CEAF61005B9DD7 /* Info.plist */,
-				B630BE6B25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld */,
+				B630BE6B25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld */,
 				B630BE9825D03F92005B9DD7 /* DataController.swift */,
+				B636A11825D5AA0000AE7465 /* NotebookMO.swift */,
+				B62FCF2525D1DDCE00888065 /* practpersistenciaTest */,
 			);
 			path = practpersistencia;
-			sourceTree = "<group>";
-		};
-		B630BE7B25CEAF61005B9DD7 /* practpersistenciaTests */ = {
-			isa = PBXGroup;
-			children = (
-				B630BE7C25CEAF61005B9DD7 /* practpersistenciaTests.swift */,
-				B630BE7E25CEAF61005B9DD7 /* Info.plist */,
-			);
-			path = practpersistenciaTests;
-			sourceTree = "<group>";
-		};
-		B630BE8625CEAF61005B9DD7 /* practpersistenciaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B630BE8725CEAF61005B9DD7 /* practpersistenciaUITests.swift */,
-				B630BE8925CEAF61005B9DD7 /* Info.plist */,
-			);
-			path = practpersistenciaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +192,7 @@
 					};
 					B630BE7725CEAF61005B9DD7 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = B630BE5E25CEAF5F005B9DD7;
 					};
 					B630BE8225CEAF61005B9DD7 = {
@@ -266,8 +255,9 @@
 			files = (
 				B630BE9925D03F92005B9DD7 /* DataController.swift in Sources */,
 				B630BE6725CEAF5F005B9DD7 /* ViewController.swift in Sources */,
+				B636A11925D5AA0000AE7465 /* NotebookMO.swift in Sources */,
 				B630BE6325CEAF5F005B9DD7 /* AppDelegate.swift in Sources */,
-				B630BE6D25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld in Sources */,
+				B630BE6D25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld in Sources */,
 				B630BE6525CEAF5F005B9DD7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B630BE7D25CEAF61005B9DD7 /* practpersistenciaTests.swift in Sources */,
+				B62FCF1E25D1DDB000888065 /* practicatest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B630BE8825CEAF61005B9DD7 /* practpersistenciaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +471,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH5J7Q8XUC;
 				INFOPLIST_FILE = practpersistenciaTests/Info.plist;
@@ -493,6 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rhcdesarrollo.practpersistenciaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practpersistencia.app/practpersistencia";
@@ -504,6 +495,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH5J7Q8XUC;
 				INFOPLIST_FILE = practpersistenciaTests/Info.plist;
@@ -603,13 +595,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B630BE6B25CEAF5F005B9DD7 /* practpersistenciaModel.xcdatamodeld */ = {
+		B630BE6B25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				B630BE6C25CEAF5F005B9DD7 /* practpersistencia.xcdatamodel */,
 			);
 			currentVersion = B630BE6C25CEAF5F005B9DD7 /* practpersistencia.xcdatamodel */;
-			path = practpersistenciaModel.xcdatamodeld;
+			path = practpersistencia.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
