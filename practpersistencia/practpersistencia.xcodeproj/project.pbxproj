@@ -17,6 +17,7 @@
 		B630BE7225CEAF61005B9DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B630BE7025CEAF61005B9DD7 /* LaunchScreen.storyboard */; };
 		B630BE9925D03F92005B9DD7 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B630BE9825D03F92005B9DD7 /* DataController.swift */; };
 		B636A11925D5AA0000AE7465 /* NotebookMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636A11825D5AA0000AE7465 /* NotebookMO.swift */; };
+		B6505DE925D9AF200092CCF8 /* ViewTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6505DE825D9AF200092CCF8 /* ViewTableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B630BE8325CEAF61005B9DD7 /* practpersistenciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practpersistenciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B630BE9825D03F92005B9DD7 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		B636A11825D5AA0000AE7465 /* NotebookMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookMO.swift; sourceTree = "<group>"; };
+		B6505DE825D9AF200092CCF8 /* ViewTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +119,18 @@
 				B630BE6B25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld */,
 				B630BE9825D03F92005B9DD7 /* DataController.swift */,
 				B636A11825D5AA0000AE7465 /* NotebookMO.swift */,
+				B6505DE725D9AE850092CCF8 /* Controllers */,
 				B62FCF2525D1DDCE00888065 /* practpersistenciaTest */,
 			);
 			path = practpersistencia;
+			sourceTree = "<group>";
+		};
+		B6505DE725D9AE850092CCF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6505DE825D9AF200092CCF8 /* ViewTableController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				B630BE6725CEAF5F005B9DD7 /* ViewController.swift in Sources */,
 				B636A11925D5AA0000AE7465 /* NotebookMO.swift in Sources */,
 				B630BE6325CEAF5F005B9DD7 /* AppDelegate.swift in Sources */,
+				B6505DE925D9AF200092CCF8 /* ViewTableController.swift in Sources */,
 				B630BE6D25CEAF5F005B9DD7 /* practpersistencia.xcdatamodeld in Sources */,
 				B630BE6525CEAF5F005B9DD7 /* SceneDelegate.swift in Sources */,
 			);

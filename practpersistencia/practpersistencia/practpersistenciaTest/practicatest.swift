@@ -12,7 +12,11 @@ import CoreData
 
 
 
+
 class practicatest: XCTestCase {
+    
+    private let modelName = "practpersistencia"
+    private let optionalStoreName = "practicatest"
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -26,6 +30,9 @@ class practicatest: XCTestCase {
     
         DataController(name: "practpersistencia") {_ in
             XCTAssert(true)
+            
+        
+            
         }
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
@@ -33,24 +40,22 @@ class practicatest: XCTestCase {
 
    //test para inicializar Managed Context
     
-    func testInit_Notebook() {
-        
-        DataController(name: "practpersistencia") { (persistentContainer?) in
-            guard let persistentContainer = persistentContainer else {
-                
-                XCTFail()
-                return
-            }
-            let managedObjectContext = persistentContainer.viewContext
-            let notebook1 = NotebookMO.createNotebook(createdAt: Date(),
-                                                      title: "notebook 1",
-                                                      in: managedObjectContext)
-            XCTAssertNotNil(notebook1)
-          }
-        
-    
-
-        }
-
+//    func testInit_Notebook() {
+//        DataController(modelName: modelName, optionalStoreName: optionalStoreName) { (persistentContainer) in
+//            guard let persistentContainer = persistentContainer else {
+//                XCTF
+//                return
+//            }
+//            let managedObjectContext = persistentContainer.viewContext
+//
+//            let notebook1 = NotebookMO.createNotebook(createdAt: Date(),
+//                                                      title: "notebook 1",
+//                                                      in: managedObjectContext)
+//
+//            XCTAssertNotNil(notebook1)
+//        }
+//
+//    }
     }
+
 
